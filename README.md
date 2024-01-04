@@ -29,10 +29,10 @@ In preparation of what I am to do this week I have done a breakdown on what to t
 ## Involving GitHub
 
 I'm using GitHub to log my daily progress, share code snippets, and engage with the community.
- Each day has its own branch, and commits are made for each learning session. Feel free to explore the code and provide feedback!
+Commits are made for each learning session. Feel free to explore the code and provide feedback!
 
 ## Twitter Updates
 
-Follow my journey on Twitter [@YourTwitterHandle](https://twitter.com/YourTwitterHandle) and join the conversation using the hashtag #CProgramming #VariadicFunctions.
+Follow my journey on Twitter(X) [@grey_jacki3](https://x.com/grey_jacki3?t=ERZ2TKae4lhBI_4l8c8b5Q&s=09) and join the conversation using the hashtag #CProgramming #VariadicFunctions.
 
 Let's master variadic functions together! 🚀
