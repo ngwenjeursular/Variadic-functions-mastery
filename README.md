@@ -26,6 +26,14 @@ In preparation of what I am to do this week I have done a breakdown on what to t
 - Experimented with basic function syntax.
 - Started understanding `stdarg.h` and its macros.
 
+## Day 2: Variadic Functions Practice
+- Mastered variadic function syntax.
+- Wrote simple variadic functions.
+- Practiced using different data types in variadic functions.
+
+* got a sample problem from hackerrank to help in my practice [hackerrank problem](practice_file_1.c)
+`gcc -Wall -Wextra -Werror -pedantic practice_file_1.c main.c -o 1-practice``
+
 ## Involving GitHub
 
 I'm using GitHub to log my daily progress, share code snippets, and engage with the community.
