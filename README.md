@@ -12,7 +12,7 @@ In preparation of what I am to do this week I have done a breakdown on what to t
 ## Table of Contents
 
 - [Day 1: Introduction and Basics](#day-1-introduction-and-basics)
-- [Day 2: Variadic Functions Syntax](#day-2-variadic-functions-syntax)
+- [Day 2: Variadic Functions Practice](#day-2-variadic-functions-practice)
 - [Day 3: Advanced Topics (Part 1)](#day-3-advanced-topics-part-1)
 - [Day 4: Error Handling and Debugging](#day-4-error-handling-and-debugging)
 - [Day 5: Real-world Applications](#day-5-real-world-applications)
@@ -32,7 +32,9 @@ In preparation of what I am to do this week I have done a breakdown on what to t
 - Practiced using different data types in variadic functions.
 
 * got a sample problem from hackerrank to help in my practice [hackerrank problem](practice_file_1.c)
-`gcc -Wall -Wextra -Werror -pedantic practice_file_1.c main.c -o 1-practice``
+
+use this to compile your code
+`gcc -Wall -Wextra -Werror -pedantic practice_file_1.c main.c -o 1-practice`
 
 ## Involving GitHub
 
