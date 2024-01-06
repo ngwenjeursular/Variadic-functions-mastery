@@ -36,6 +36,11 @@ In preparation of what I am to do this week I have done a breakdown on what to t
 use this to compile your code
 `gcc -Wall -Wextra -Werror -pedantic practice_file_1.c main.c -o 1-practice`
 
+## Day 3: Advanced Topics (Part 1)
+- Explored nested variadic functions.
+- wrote a sample piece of code to pracice the nested variadic functions.
+- use this to compile your program: 
+`gcc -Wall -Wextra -Werror -pedantic practice_file_1.c practice_file_2.c practice_file_3.c custom_functions.c main.c -o 3-practice -lm`
 ## Involving GitHub
 
 I'm using GitHub to log my daily progress, share code snippets, and engage with the community.

@@ -9,7 +9,7 @@
 /**
  * custom_printf - Prints to output according to format
  * @format: Character string
- * Return: void
+ * Return: 0 (Success)
  */
 int custom_printf(const char *format, ...)
 {

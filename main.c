@@ -12,6 +12,7 @@ int main(void)
 	int num = 9;
 	char str[] = "Jackie";
 	char ch = 'j';
+	double mean, variance, stdDeviation;
 
 	result_sum = sum(3, 4, 2, 10);
 	printf("Resulting sum: %d\n", result_sum);
@@ -23,6 +24,15 @@ int main(void)
 	printf("Resulting maximum: %d\n", result_max);
 
 	custom_printf("a number %d, a string: %s, and a character: %c\n", num, str, ch);
+
+	mean = calculateMean(5, 10.5, 11.0, 10.8, 10.2, 10.9);
+	variance = calculateVariance(5, 10.5, 11.0, 10.8, 10.2, 10.9);
+	stdDeviation = calculateStandardDeviation(5, 10.5, 11.0, 10.8, 10.2, 10.9);
+
+	printf("\nMean: %.2f\n", mean);
+	printf("Variance: %.2f\n", variance);
+	printf("Standard Deviation: %.2f\n", stdDeviation);
+
 
 
 	return (0);

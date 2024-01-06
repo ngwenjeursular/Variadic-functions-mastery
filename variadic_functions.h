@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <stddef.h>
 #include <stdio.h>
+#include <math.h>
 
 int sum(int count, ...);
 int max(int count, ...);
@@ -15,5 +16,10 @@ int _putchar(char c);
 void _puts(char *str);
 
 int custom_printf(const char *format, ...);
+
+/*nested variiadic functions*/
+double calculateMean(int count, ...);
+double calculateVariance(int count, ...);
+double calculateStandardDeviation(int count, ...);
 
 #endif  /*VARIADIC_FUNCTIONS_H*/
