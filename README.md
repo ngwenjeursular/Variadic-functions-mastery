@@ -27,6 +27,8 @@ In preparation of what I am to do this week I have done a breakdown on what to t
 - Started understanding `stdarg.h` and its macros.
 
 ## Day 2: Variadic Functions Practice
+(05/01/2024)
+
 - Mastered variadic function syntax.
 - Wrote simple variadic functions.
 - Practiced using different data types in variadic functions.
@@ -37,8 +39,14 @@ use this to compile your code
 `gcc -Wall -Wextra -Werror -pedantic practice_file_1.c main.c -o 1-practice`
 
 ## Day 3: Advanced Topics (Part 1)
+(06/01/2024)
+
+[nested variadic functions practice](practice_file_3.c)
 - Explored nested variadic functions.
-- wrote a sample piece of code to pracice the nested variadic functions.
+- wrote a sample piece of code to practice the nested variadic functions.
+- You can actually define a function within the body of another function in some other programming languages, but in C
+- functions are typically defined seperately. So instead of nested functions definitions, like you would in Python,
+- here I use nested function calls to achieve the same functionality which falls in the same umbrella term "Nested Variadic functions"
 - use this to compile your program: 
 `gcc -Wall -Wextra -Werror -pedantic practice_file_1.c practice_file_2.c practice_file_3.c custom_functions.c main.c -o 3-practice -lm`
 ## Involving GitHub
