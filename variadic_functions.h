@@ -6,6 +6,7 @@
 #include <stddef.h>
 #include <stdio.h>
 #include <math.h>
+#include <ctype.h>
 
 int sum(int count, ...);
 int max(int count, ...);
@@ -16,6 +17,7 @@ int _putchar(char c);
 void _puts(char *str);
 
 int custom_printf(const char *format, ...);
+int custom_printf2(const char *format, ...);
 
 /*nested variiadic functions*/
 double calculateMean(int count, ...);

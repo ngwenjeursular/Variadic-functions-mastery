@@ -34,6 +34,13 @@ int main(void)
 	printf("Standard Deviation: %.2f\n", stdDeviation);
 
 
+	custom_printf2(NULL);  /* Null format string */
+	custom_printf2("Negative integer: %d\n", -5);  /* Negative integer not allowed */
+	custom_printf2("Null string: %s\n", NULL);  /* Null string argument */
+	custom_printf2("Non-alphabetic character: %c\n", '2');  /* Non-alphabetic character */
+
+
+
 
 	return (0);
 }

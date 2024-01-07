@@ -49,6 +49,17 @@ use this to compile your code
 - here I use nested function calls to achieve the same functionality which falls in the same umbrella term "Nested Variadic functions"
 - use this to compile your program: 
 `gcc -Wall -Wextra -Werror -pedantic practice_file_1.c practice_file_2.c practice_file_3.c custom_functions.c main.c -o 3-practice -lm`
+
+
+## Day 4: Error Handling and Debugging
+(07/01/2024)
+
+[error handling](practice_file_4.c)
+- Learned error handling in variadic functions.
+- Practiced debugging techniques for variadic functions.
+use this to compile your program:
+`gcc -Wall -Wextra -Werror -pedantic practice_file_1.c practice_file_2.c practice_file_3.c practice_file_4.c custom_functions.c main.c -o 4-practice -lm`
+
 ## Involving GitHub
 
 I'm using GitHub to log my daily progress, share code snippets, and engage with the community.
