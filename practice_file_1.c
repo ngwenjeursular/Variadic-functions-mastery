@@ -29,7 +29,7 @@ int sum(int count, ...)
 	if (count <= 0)
 	{
 	    fprintf(stderr, "Error: Invalid count for min function\n");
-	    return 0;  /* Return an appropriate value or handle the error as needed */
+	    return (0);  /* Return an appropriate value or handle the error as needed */
 	}
 
 
@@ -68,7 +68,7 @@ int min(int count, ...)
 	if (count <= 0)
 	{
 	    fprintf(stderr, "Error: Invalid count for min function\n");
-	    return 0;  /* Return an appropriate value or handle the error as needed */
+	    return (0);  /* Return an appropriate value or handle the error as needed */
 	}
 
 
@@ -84,7 +84,7 @@ int min(int count, ...)
 		{
 		    fprintf(stderr, "Error: Non-integer argument for min function\n");
 		    va_end(args);
-		    return -1;
+		    return (-1);
 		}
 
 		if (current < min_value)
@@ -110,8 +110,8 @@ int max(int count, ...)
 	/*Error Handling*/
 	if (count <= 0)
 	{
-	    fprintf(stderr, "Error: Invalid count for min function\n");
-	    return 0;  /* Return an appropriate value or handle the error as needed */
+	    fprintf(stderr, "Error: Invalid count for max function\n");
+	    return (0);  /* Return an appropriate value or handle the error as needed */
 	}
 
 
@@ -126,9 +126,9 @@ int max(int count, ...)
 		/*Error Handling*/
 		if (!current)
 		{
-		    fprintf(stderr, "Error: Non-integer argument for min function\n");
+		    fprintf(stderr, "Error: Non-integer argument for max function\n");
 		    va_end(args);
-		    return -1;
+		    return (-1);
 		}
 
                 if (current > max_value)
